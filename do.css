@@ -1,0 +1,34 @@
+body{
+    margin:0;
+    text-align:center;
+}
+h1{
+    margin :0;
+    text-align:center;
+}
+.top{
+background-color:darkcyan;
+position:relative; /*relative to body*/
+padding-top:100px;
+}
+.mid{
+    background-color:darkgray;
+    width:200px;
+    height:200px;
+}
+.last{
+    background-color:darkorchid;
+    width:200px;
+    height:200px;
+}
+.bottom-cloud{
+    position:absolute; /*mountain will be in middle as bottom cloud out of flow acc. to html, this is dependent on its parent element that is top so top will be set to as relative or else it would be dependent on body.*/
+    width:200px;
+    height: 200px;
+}
+
+.top-cloud{
+    position:absolute;/*made it relative to top parent class and now setting its margins right and top accordingly*/
+    right:300px;
+    top:50px;
+}
